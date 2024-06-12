@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1aa3a0e-862a-4c32-b35a-e22844f88ace" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/Feature/Customers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/Feature/Vendor.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/Feature/loginFeature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/Run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/Screenshots/screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/logs/mylog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/main/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/PageObject/AddNewCustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/PageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/PageObject/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/StepDefinition/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/StepDefinition/StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/TestRunner/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/src/test/java/Utility/ReadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/classes/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/cucumer-reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/cucumer-reports/report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/PageObject/AddNewCustomerPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/PageObject/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/PageObject/SearchPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/StepDefinition/BaseClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/StepDefinition/StepDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/TestRunner/Run.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cucumber-Java/target/test-classes/Utility/ReadConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/Configuration/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/src/test/java/com/mystore/pageobject/IndexPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/src/test/java/com/mystore/pageobject/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/src/test/java/com/mystore/testcases/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/src/test/java/com/mystore/testcases/TC_MyAccountPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/src/test/java/com/mystore/utilities/ReadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/target/test-classes/com/mystore/pageobject/IndexPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/target/test-classes/com/mystore/pageobject/MyAccountPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/target/test-classes/com/mystore/testcases/BaseClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/target/test-classes/com/mystore/testcases/TC_MyAccountPageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/target/test-classes/com/mystore/utilities/ReadConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myStoreEcomerence/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2hiv5kLJ3UCUIvGxbdxMLbkxRYZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1aa3a0e-862a-4c32-b35a-e22844f88ace" name="Changes" comment="" />
+      <created>1718089535057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718089535057</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

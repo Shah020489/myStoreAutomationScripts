@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM>
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="com.mystore.testcases.TC_MyAccountPageTest"/>
+        </classes>
+    </test>
+</suite>
