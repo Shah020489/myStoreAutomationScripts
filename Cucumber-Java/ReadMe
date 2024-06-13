@@ -1,1 +1,128 @@
 Selenium Project with Java, JUnit, and Cucumber BDD
+
+Table of Contents
+
+    Introduction
+    Project Structure
+    Setup
+    Running Tests
+    Writing Tests
+    Reporting
+    Contributing
+    License
+
+Introduction
+
+This project is a test automation framework using Selenium, Java, JUnit, and Cucumber BDD. It is designed to automate web application testing by writing BDD-style test scenarios.
+Project Structure
+
+css
+
+project-root
+│
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── your_project_package
+│   │           └── ... (your main code)
+│   └── test
+│       ├── java
+│       │   └── your_project_package
+│       │       ├── runners
+│       │       ├── steps
+│       │       └── utils
+│       └── resources
+│           └── features
+│               └── ... (your feature files)
+│
+├── pom.xml
+└── README.md
+
+    src/main/java: Contains the main code of your project.
+    src/test/java: Contains the test code including step definitions and runners.
+    src/test/resources/features: Contains the feature files for your BDD scenarios.
+    pom.xml: Maven configuration file.
+
+Setup
+Prerequisites
+
+    JDK 8 or higher
+    Maven
+    IDE (IntelliJ IDEA, Eclipse, etc.)
+
+Installing Dependencies
+
+Run the following command to install all necessary dependencies:
+
+sh
+
+mvn clean install
+
+Running Tests
+
+You can run the tests using Maven. Use the following command to execute all tests:
+
+sh
+
+mvn test
+
+Alternatively, you can run specific tests from your IDE by running the test runners.
+Writing Tests
+
+    Create Feature File: Write your BDD scenarios in a .feature file inside src/test/resources/features.
+
+    Example:
+
+    gherkin
+
+Feature: Login functionality
+
+Scenario: Successful login with valid credentials
+  Given the user is on the login page
+  When the user enters valid credentials
+  Then the user should be redirected to the dashboard
+
+Create Step Definitions: Implement the step definitions in a Java class inside src/test/java/your_project_package/steps.
+
+Example:
+
+java
+
+public class LoginSteps {
+    @Given("the user is on the login page")
+    public void theUserIsOnTheLoginPage() {
+        // code to navigate to login page
+    }
+
+    @When("the user enters valid credentials")
+    public void theUserEntersValidCredentials() {
+        // code to enter credentials
+    }
+
+    @Then("the user should be redirected to the dashboard")
+    public void theUserShouldBeRedirectedToTheDashboard() {
+        // code to verify redirection
+    }
+}
+
+Create Test Runner: Create a test runner class in src/test/java/your_project_package/runners to run your feature files.
+
+Example:
+
+java
+
+    @RunWith(Cucumber.class)
+    @CucumberOptions(features = "src/test/resources/features", glue = "your_project_package.steps")
+    public class TestRunner {
+    }
+
+Reporting
+
+The framework can generate reports using Cucumber's built-in reporting features. After running the tests, check the target directory for the generated reports.
+Contributing
+
+    Fork the repository.
+    Create a new branch (git checkout -b feature/your-feature).
+    Commit your changes (git commit -am 'Add new feature').
+    Push to the branch (git push origin feature/your-feature).
+    Create a new Pull Request.
