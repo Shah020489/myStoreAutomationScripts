@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-06-12T11:34:56.163Z",
+        "start_timestamp": "2024-06-13T07:18:45.467Z",
         "before": [
           {
             "result": {
-              "duration": 3928943800,
+              "duration": 1013100,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,6 @@
         "after": [
           {
             "result": {
-              "duration": 496996200,
               "status": "passed"
             },
             "match": {
@@ -35,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81603700,
+              "duration": 994900,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +46,6 @@
           },
           {
             "result": {
-              "duration": 1759895500,
               "status": "passed"
             },
             "line": 6,
@@ -65,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 937892300,
+              "duration": 1000300,
               "status": "passed"
             },
             "line": 7,
@@ -87,7 +85,6 @@
           },
           {
             "result": {
-              "duration": 3446367800,
               "status": "passed"
             },
             "line": 8,
@@ -99,7 +96,6 @@
           },
           {
             "result": {
-              "duration": 2580853700,
               "status": "passed"
             },
             "line": 9,
@@ -117,45 +113,33 @@
           },
           {
             "result": {
-              "duration": 165760200,
               "status": "passed"
             },
             "line": 10,
-            "name": "User click on Catalog link",
+            "name": "User click on Report link",
             "match": {
-              "location": "StepDefinition.StepDef.user_click_on_catalog_link()"
+              "location": "StepDefinition.StepDef.user_click_on_report_link()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 893989900,
               "status": "passed"
             },
             "line": 11,
-            "name": "User Click on Manufacturers link",
+            "name": "User Click on Sales Summary link",
             "match": {
-              "location": "StepDefinition.StepDef.user_click_on_manufacturers_link()"
+              "location": "StepDefinition.StepDef.user_click_on_sales_summary_link()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[normalize-space()\u003d\u0027Export\u0027]\"}\n  (Session info: chrome\u003d125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.17.0\u0027, revision: \u0027e52b1be057*\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002720.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bff1c805de876b9ed9476edd524c8b24, findElement {using\u003dxpath, value\u003d//a[normalize-space()\u003d\u0027Export\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Users\\ShakeelAhmed\\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49783/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bff1c805de876b9ed9476edd524c8b24\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)\r\n\tat PageObject.CategoryPage.buttonPresentOnCategories(CategoryPage.java:51)\r\n\tat StepDefinition.StepDef.page_heading_should_be(StepDef.java:360)\r\n\tat ✽.Page Heading should be \"Categories\"(file:///C:/Learning/Automation-Sessions/JavaRevision/myStoreAutomationScripts/Cucumber-Java/./Feature/CategoryPage.feature:12)\r\n",
-              "duration": 10835475200,
-              "status": "failed"
+              "status": "undefined"
             },
             "line": 12,
-            "name": "Page Heading should be \"Categories\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Categories\"",
-                  "offset": 23
-                }
-              ],
-              "location": "StepDefinition.StepDef.page_heading_should_be(java.lang.String)"
-            },
+            "name": "Page Heading should \"Sales summary\"",
+            "match": {},
             "keyword": "Then "
           },
           {
@@ -181,7 +165,7 @@
     "description": "",
     "id": "category",
     "keyword": "Feature",
-    "uri": "file:Feature/CategoryPage.feature",
+    "uri": "file:Feature/ReportPage.feature",
     "tags": []
   }
 ]

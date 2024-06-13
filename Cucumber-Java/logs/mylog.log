@@ -173,3 +173,18 @@
 [INFO ] 2024-06-12 16:38:47.910 [main] StepDef - User enters Email and Password
 [INFO ] 2024-06-12 16:38:50.208 [main] StepDef - Click on Login Button
 [INFO ] 2024-06-12 16:38:51.691 [main] StepDef - Verify the page title --Passed
+[INFO ] 2024-06-13 11:44:50.607 [main] StepDef - User Launch Chrome browser
+[INFO ] 2024-06-13 11:44:50.650 [main] StepDef - User opens URL
+[INFO ] 2024-06-13 11:44:52.513 [main] StepDef - User enters Email and Password
+[INFO ] 2024-06-13 11:44:56.309 [main] StepDef - Click on Login Button
+[INFO ] 2024-06-13 11:44:57.940 [main] StepDef - Verify the page title --Passed
+[INFO ] 2024-06-13 12:15:21.497 [main] StepDef - User Launch Chrome browser
+[INFO ] 2024-06-13 12:15:21.532 [main] StepDef - User opens URL
+[INFO ] 2024-06-13 12:15:26.021 [main] StepDef - User enters Email and Password
+[INFO ] 2024-06-13 12:15:28.203 [main] StepDef - Click on Login Button
+[INFO ] 2024-06-13 12:15:28.221 [main] StepDef - Verify the page title --Passed
+[INFO ] 2024-06-13 12:20:58.325 [main] StepDef - User Launch Chrome browser
+[INFO ] 2024-06-13 12:20:58.357 [main] StepDef - User opens URL
+[INFO ] 2024-06-13 12:21:02.996 [main] StepDef - User enters Email and Password
+[INFO ] 2024-06-13 12:21:05.272 [main] StepDef - Click on Login Button
+[INFO ] 2024-06-13 12:21:05.288 [main] StepDef - Verify the page title --Passed

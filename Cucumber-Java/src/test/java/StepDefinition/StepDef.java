@@ -1,5 +1,4 @@
 package StepDefinition;
-
 import PageObject.*;
 import Utility.Constant;
 import Utility.ReadConfig;
@@ -16,13 +15,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class StepDef extends BaseClass {
@@ -64,6 +58,7 @@ public class StepDef extends BaseClass {
         searchPage = new SearchPage(driver);
         vendorPage=new VendorPage(driver);
         categoryPageObject=new CategoryPage(driver);
+        reportPageObj=new ReportPage(driver);
 
     }
 
@@ -358,6 +353,25 @@ public class StepDef extends BaseClass {
         }
 
         categoryPageObject.buttonPresentOnCategories();
+    }
+
+    @When("User click on Report link")
+    public void user_click_on_report_link() {
+       reportPageObj.clickOnReportLeftMenuLink();
+    }
+    @When("User Click on Sales Summary link")
+    public void user_click_on_sales_summary_link() {
+       reportPageObj.clickOnSalesSummaryLeftMenuReport();
+    }
+    @Then("Page Heading should {string}")
+    public void page_heading_should(String string) {
+        String actualHeading=reportPageObj.getSalessummaryHeading();
+        if(actualHeading.equals(string)){
+            Assert.assertTrue(true);
+        }
+        else {
+            Assert.assertTrue(false);
+        }
     }
 
 }
