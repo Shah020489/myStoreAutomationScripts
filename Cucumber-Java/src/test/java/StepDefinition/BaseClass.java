@@ -1,9 +1,6 @@
 package StepDefinition;
 
-import PageObject.AddNewCustomerPage;
-import PageObject.LoginPage;
-import PageObject.SearchPage;
-import PageObject.VendorPage;
+import PageObject.*;
 import Utility.ReadConfig;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +17,7 @@ public class BaseClass {
     public Logger logger;
     public ReadConfig readConfig;
 
+    public CategoryPage categoryPageObject;
     public VendorPage vendorPage;
     public String generateEnail() {
         String[] domains = {"example.com", "mail.com", "test.com", "myemail.com", "domain.com"};

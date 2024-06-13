@@ -1,9 +1,6 @@
 package StepDefinition;
 
-import PageObject.AddNewCustomerPage;
-import PageObject.LoginPage;
-import PageObject.SearchPage;
-import PageObject.VendorPage;
+import PageObject.*;
 import Utility.Constant;
 import Utility.ReadConfig;
 import io.cucumber.java.*;
@@ -66,6 +63,7 @@ public class StepDef extends BaseClass {
         addNewCustomerPage = new AddNewCustomerPage(driver);
         searchPage = new SearchPage(driver);
         vendorPage=new VendorPage(driver);
+        categoryPageObject=new CategoryPage(driver);
 
     }
 
@@ -339,6 +337,27 @@ public class StepDef extends BaseClass {
         else {
             Assert.assertTrue(false);
         }
+    }
+
+    @When("User click on Catalog link")
+    public void user_click_on_catalog_link() {
+        categoryPageObject.clickOnCatalogLeftMenuLinkLocator();}
+    @When("User Click on Manufacturers link")
+    public void user_click_on_manufacturers_link() {
+        categoryPageObject.clickOnCategoriesLeftMenuLink();
+    }
+
+    @Then("Page Heading should be {string}")
+    public void page_heading_should_be(String string) {
+        String actualHeading=categoryPageObject.getCategoriesHeading();
+        if(actualHeading.equals(string)){
+            Assert.assertTrue(true);
+        }
+        else {
+            Assert.assertTrue(false);
+        }
+
+        categoryPageObject.buttonPresentOnCategories();
     }
 
 }
